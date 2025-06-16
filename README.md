@@ -32,6 +32,14 @@ User input with `Scanner`
 Conditional logic
 Console interaction
 
+### 4. Methods
+Simple methods 
+
+**Key Concetpts:**
+User input with `Scanner`
+Conditional logic
+Console interaction
+
 ##  How to Run
 **Clone this Repository**
 https://github.com/11florin/JavaProjects.git
