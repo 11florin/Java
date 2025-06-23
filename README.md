@@ -1,4 +1,4 @@
-# 🃏 Blackjack – Java Console Edition
+#  Blackjack – Java Console Edition
 
 A simplified, text-based Blackjack game built in Java. Test your luck and strategy against a computer dealer in this classic casino-style game — right in your terminal!
 
