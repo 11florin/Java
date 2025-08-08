@@ -2,14 +2,15 @@ package WorldOfObjects;
 
 public class Main {
     public static void main(String[] args) {
-         Car nissan = new Car("Nissan", 10000, 2020, "Green");
+        //String[] spareParts = new String[] {"Tires", "Keys"};
+         Car nissan = new Car("Nissan", 10000, 2020, "Green", new String[] {"Tires", "Keys"});
 
         // nissan.make = "Nissan";
         // nissan.price = 10000;
         // nissan.year = 2020;
         // nissan.color = "Green";
 
-        Car dodge = new Car("Dodge", 11000, 2019, "Blue");
+        Car dodge = new Car("Dodge", 11000, 2019, "Blue", new String[] {"Tires", "Keys"});
         // dodge.make = "Dodge";
         // dodge.price = 11000;
         // dodge.year = 2019;
@@ -25,6 +26,8 @@ public class Main {
 
         // nissan.setPrice(nissan.getPrice() / 2);
         // dodge.setPrice(dodge.getPrice() / 2);
+
+        //spareParts[0] = "Filter";
 
         Car nissan2 = new Car(nissan);
 
