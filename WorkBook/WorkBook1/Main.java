@@ -18,8 +18,10 @@ public class Main {
         // System.out.println(Arrays.toString(person.passport));
         // System.out.println(person.seatNumber);
 
-        System.out.println("Name: " + person.name + "\n" + "Nationality: "
-                + person.nationality + "\n" + "Date of Birth: " + person.dateOfBirth +
-                "\n" + "Seat Number: " + person.seatNumber + "\n");
+        person.setSeatNumber(10);
+        
+        System.out.println("Name: " + person.getName() + "\n" + "Nationality: "
+                + person.getNationality() + "\n" + "Date of Birth: " + person.getDateOfBirth() +
+                "\n" + "Seat Number: " + person.getSeatNumber() + "\n");
     }
 }
