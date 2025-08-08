@@ -20,11 +20,20 @@ public class Main {
         // System.out.println("This " + dodge.make + " is worth $" + dodge.price +
         //         ". It was built in " + dodge.year + ". It is " + dodge.color + ".\n");
 
-        nissan.setColor("Jet Black");
-        dodge.setColor("Jet Black");
+        // nissan.setColor("Jet Black");
+        // dodge.setColor("Jet Black");
 
-        nissan.setPrice(nissan.getPrice() / 2);
-        dodge.setPrice(dodge.getPrice() / 2);
+        // nissan.setPrice(nissan.getPrice() / 2);
+        // dodge.setPrice(dodge.getPrice() / 2);
+
+        Car nissan2 = new Car(nissan);
+
+        nissan2.setColor("Yellow");
+        nissan.setColor("Orange");
+        nissan2.setColor("Blue");
+        nissan.setColor("Purple");
+        nissan2.setColor("Fuchsia");
+        nissan.setColor("Beige");
 
         System.out.println("This " + nissan.getMake() + " is worth $" + nissan.getPrice() +
                 ". It was built in " + nissan.getYear() + ". It is " + nissan.getColor() + ".\n");
