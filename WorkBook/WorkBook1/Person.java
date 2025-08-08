@@ -13,6 +13,12 @@ public class Person {
         this.dateOfBirth = dateOfBirth;
         this.seatNumber = seatNumber;
     }
+    public Person(Person twin) {
+        this.name = twin.name;
+        this.nationality = twin.nationality;
+        this.dateOfBirth = twin.dateOfBirth;
+        this.seatNumber = twin.seatNumber;
+    }
     public String getName() {
         return name;
     }

@@ -18,10 +18,20 @@ public class Main {
         // System.out.println(Arrays.toString(person.passport));
         // System.out.println(person.seatNumber);
 
-        person.setSeatNumber(10);
-        
+        //person.setSeatNumber(10);
+
+        Person twin = new Person(person);  //creates a cpoy of the first object
+
+        twin.setName("Valentina");  //Updates name fields of the seconf object
+        twin.setSeatNumber(3);  //Update the seat number of the second
+
         System.out.println("Name: " + person.getName() + "\n" + "Nationality: "
                 + person.getNationality() + "\n" + "Date of Birth: " + person.getDateOfBirth() +
                 "\n" + "Seat Number: " + person.getSeatNumber() + "\n");
+
+                System.out.println("Name: " + twin.getName() + "\n" + 
+                "Nationality: " + twin.getNationality() + "\n" + 
+                "Date of Birth: " + twin.getDateOfBirth() + "\n" + 
+                "Seat Number: " + twin.getSeatNumber() + "\n");
     }
 }
