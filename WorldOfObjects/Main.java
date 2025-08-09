@@ -31,7 +31,7 @@ public class Main {
 
         Car nissan2 = new Car(nissan);
 
-        nissan2.setColor("Yellow");
+        //nissan2.setColor("Yellow");
         // nissan.setColor("Orange");
         // nissan2.setColor("Blue");
         // nissan.setColor("Purple");
@@ -43,6 +43,10 @@ public class Main {
         // System.out.println("This " + dodge.getMake() + " is worth $" + dodge.getPrice() +
         //         ". It was built in " + dodge.getYear() + ". It is " + dodge.getColor() + ".\n");
 
-        nissan2.drive();
+        //nissan2.drive();
+
+        System.out.println(nissan);
+        System.out.println(dodge);
+        System.out.println(nissan2);
     }
 }
