@@ -1,5 +1,7 @@
 package WorkBook.WorkBook1;
 
+import java.util.Arrays;
+
 //import java.util.Arrays;
 
 public class Main {
@@ -19,27 +21,38 @@ public class Main {
         // System.out.println(person.seatNumber);
 
         // person.setSeatNumber(10);
-        person.chooseSeat();
+        //person.chooseSeat();
 
-        Person twin = new Person(person); // creates a cpoy of the first object
+        //Person twin = new Person(person); // creates a cpoy of the first object
 
-        twin.setName("Valentina"); // Updates name fields of the seconf object
-        twin.setSeatNumber(3); // Update the seat number of the second
+        // twin.setName("Valentina"); // Updates name fields of the seconf object
+        // twin.setSeatNumber(3); // Update the seat number of the second
 
-        System.out.println("Name: " + person.getName() + "\n" + "Nationality: "
-                + person.getNationality() + "\n" + "Date of Birth: " + person.getDateOfBirth() +
-                "\n" + "Seat Number: " + person.getSeatNumber() + "\n");
+        // System.out.println("Name: " + person.getName() + "\n" + "Nationality: "
+        //         + person.getNationality() + "\n" + "Date of Birth: " + person.getDateOfBirth() +
+        //         "\n" + "Seat Number: " + person.getSeatNumber() + "\n");
 
-        System.out.println("Name: " + twin.getName() + "\n" +
-                "Nationality: " + twin.getNationality() + "\n" +
-                "Date of Birth: " + twin.getDateOfBirth() + "\n" +
-                "Seat Number: " + twin.getSeatNumber() + "\n");
+        // System.out.println("Name: " + twin.getName() + "\n" +
+        //         "Nationality: " + twin.getNationality() + "\n" +
+        //         "Date of Birth: " + twin.getDateOfBirth() + "\n" +
+        //         "Seat Number: " + twin.getSeatNumber() + "\n");
 
-        if (person.applyPassport()) {
-            System.out.println("Congratulations " + person.getName() + ". Your passport was approved!");
-        } else {
-            System.out.println("We are sorry " + person.getName() + ". We cannot process your application.");
 
+        if (person.applyPassport() == true) {
+            person.setPassport();
         }
+
+        System.out.println("Name: " + person.getName() + "\n"
+        +  "Nationality: " + person.getNationality() + "\n"
+        +  "Date of Birth: " + person.getDateOfBirth() + "\n"
+        +  "Seat Number: " + person.getSeatNumber() + "\n"
+        +  "Passport: " + Arrays.toString(person.getPassport()) + "\n");
+
+        // if (person.applyPassport()) {
+        //     System.out.println("Congratulations " + person.getName() + ". Your passport was approved!");
+        // } else {
+        //     System.out.println("We are sorry " + person.getName() + ". We cannot process your application.");
+
+        // }
     }
 }
