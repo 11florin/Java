@@ -1,4 +1,4 @@
-package WorkBook.Workbook8;
+package workbook8;
 
 public class Main {
     public static void main(String[] args) {

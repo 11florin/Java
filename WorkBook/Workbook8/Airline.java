@@ -1,4 +1,4 @@
-package WorkBook.Workbook8;
+package workbook8;
 
 public class Airline {
 

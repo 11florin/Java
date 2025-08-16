@@ -1,4 +1,4 @@
-package WorkBook.WorkBook1;
+package workbook1;
 
 import java.util.Arrays;
 
