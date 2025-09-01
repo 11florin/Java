@@ -1,0 +1,64 @@
+{
+    // Use IntelliSense to learn about possible attributes.
+    // Hover to view descriptions of existing attributes.
+    // For more information, visit: https://go.microsoft.com/fwlink/?linkid=830387
+  "version": "0.2.0",
+  "configurations": [
+    {
+      "type": "java",
+      "name": "Run workbook1.Main",
+      "request": "launch",
+      "mainClass": "workbook1.Main",
+      "projectName": "Java-OOP_bffda5bf"
+    },
+    {
+      "type": "java",
+      "name": "Run workbook7.Main",
+      "request": "launch",
+      "mainClass": "workbook7.Main",
+      "projectName": "Java-OOP_bffda5bf"
+    },
+    {
+      "type": "java",
+      "name": "Run workbook8.Main",
+      "request": "launch",
+      "mainClass": "workbook8.Main",
+      "projectName": "Java-OOP_bffda5bf"
+    },
+    {
+      "type": "java",
+      "name": "Run workbook9.Main",
+      "request": "launch",
+      "mainClass": "workbook9.Main",
+      "projectName": "Java-OOP_bffda5bf"
+    },
+    {
+      "type": "java",
+      "name": "Run workbook10.Main",
+      "request": "launch",
+      "mainClass": "workbook10.Main",
+      "projectName": "Java-OOP_bffda5bf"
+    },
+    {
+      "type": "java",
+      "name": "Run workbook12.Main",
+      "request": "launch",
+      "mainClass": "workbook12.Main",
+      "projectName": "Java-OOP_bffda5bf"
+    },
+    {
+      "type": "java",
+      "name": "Run WorldOfObjects.Main",
+      "request": "launch",
+      "mainClass": "WorldOfObjects.Main",
+      "projectName": "Java-OOP_bffda5bf"
+    },
+    {
+      "type": "java",
+      "name": "Run exceptionHandlingChallenge.Main",
+      "request": "launch",
+      "mainClass": "exceptionHandlingChallenge.Main",
+      "projectName": "Java-OOP_bffda5bf"
+    }
+  ]
+}
