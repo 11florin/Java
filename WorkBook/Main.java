@@ -1,4 +1,4 @@
-package workbook12;
+import workbook12.*;
 
 public class Main {
     public static void main(String[] args) {

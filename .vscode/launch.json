@@ -6,6 +6,13 @@
   "configurations": [
     {
       "type": "java",
+      "name": "Main",
+      "request": "launch",
+      "mainClass": "Main",
+      "projectName": "Java-OOP_bffda5bf"
+    },
+    {
+      "type": "java",
       "name": "Run workbook1.Main",
       "request": "launch",
       "mainClass": "workbook1.Main",
