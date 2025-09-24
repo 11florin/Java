@@ -1,4 +1,4 @@
-package exercise;
+package exercise.practiceExercise;
 
 public class Dog {
     private static String name;
