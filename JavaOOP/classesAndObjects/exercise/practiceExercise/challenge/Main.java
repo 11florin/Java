@@ -1,4 +1,4 @@
-package exercise.practiceExercise;
+package exercise.practiceExercise.challenge;
 
 public class Main {
     
