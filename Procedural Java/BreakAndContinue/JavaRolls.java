@@ -1,4 +1,3 @@
-package BreakAndContinue;
 
 import java.util.Scanner;
 

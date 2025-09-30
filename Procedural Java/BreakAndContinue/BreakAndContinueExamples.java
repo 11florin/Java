@@ -1,5 +1,3 @@
-package BreakAndContinue;
-
 public class BreakAndContinueExamples {
     public static void main(String[] args) {
         
