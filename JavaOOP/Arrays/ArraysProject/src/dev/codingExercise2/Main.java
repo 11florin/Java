@@ -15,6 +15,7 @@ public class Main {
 
         int findM = findMin(readEl);
         System.out.println("Min num = " + findM);
+
     }
     private static int readInteger() {
 
@@ -43,4 +44,5 @@ public class Main {
         }
         return cmv;
     }
+    
 }
