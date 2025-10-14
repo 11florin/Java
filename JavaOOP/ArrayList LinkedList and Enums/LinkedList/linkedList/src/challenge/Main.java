@@ -15,7 +15,7 @@ public class Main {
 
     public static void main(String[] args) {
 
-        LinkedList<Place> placesToVisit = new LinkedList<>();
+        LinkedList<Place> placesToVisit = new LinkedList<>(); 
         Place adelaiade = new Place("Adelaiade", 1374);
         addPlace(placesToVisit, adelaiade);
         addPlace(placesToVisit, new Place("adelaiade", 1374));
@@ -92,12 +92,12 @@ public class Main {
             return;
         }
         for (Place p : list) {
-            if (p.name().equalsIgnoreCase(place.name())) {
+            if (p.name().equalsIgnoreCase(place.name())) { 
                 System.out.println("Found duplicate: " + place);
                 return;
             }
         }
-        int matchedIndex = 0;
+        int matchedIndex = 0;  
         for (var listPlace : list) {
             if (place.distance() < listPlace.distance()) {
                 list.add(matchedIndex, place);
@@ -105,7 +105,7 @@ public class Main {
             }
             matchedIndex++;
         }
-        list.add(place);
+        list.add(place); 
     }
 
     private static void printMenu() {
