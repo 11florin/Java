@@ -1,4 +1,4 @@
-package challenge;
+package challenge.challenge1;
 
 import java.util.LinkedList;
 import java.util.Scanner;
