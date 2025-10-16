@@ -1,4 +1,4 @@
-package codingExercise;
+package codingExercise.codingExercise1;
 
 public class Song {
     

@@ -1,4 +1,4 @@
-package codingExercise;
+package codingExercise.codingExercise1;
 
 import java.util.ArrayList;
 import java.util.LinkedList;
