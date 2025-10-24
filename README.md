@@ -2,6 +2,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 # Java Procedural Programming Projects
 
 This repository contains a collection of small Java projects focused on procedural programming. All projects were created using Visual Studio Code on Windows as part of a learning process to practice core Java concepts.
@@ -156,3 +157,33 @@ Blackjack, also known as 21, is a card game where the goal is to beat the dealer
    ```bash
    javac Blackjack.java
 >>>>>>> Blackjack/main
+=======
+# Rock Paper Scissors – Console Game in Java
+
+This is a simple console-based implementation of the classic game **Rock, Paper, Scissors**, written in Java.
+
+## How It Works
+
+- The game prompts the user to type **"yes"** to begin.
+- Once started, the user is asked to choose between **rock**, **paper**, or **scissors**.
+- The computer randomly makes its own choice.
+- The game then compares both choices and announces the result:
+  - **You win!**
+  - **You lose!**
+  - **It’s a tie.**
+- If the user's input is invalid, the game will display an error and exit.
+
+## Features
+
+- User-friendly text interface.
+- Randomised computer choice.
+- Input validation and simple result logic.
+
+## How to Run
+
+1. Make sure you have **Java** installed on your machine.
+2. Compile the program using:
+
+   ```bash
+   javac RockPaperScissors.java
+>>>>>>> Rock-Paper-Scissors/main
