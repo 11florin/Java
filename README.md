@@ -1,4 +1,5 @@
 <<<<<<< HEAD
+<<<<<<< HEAD
 # Java Procedural Programming Projects
 
 This repository contains a collection of small Java projects focused on procedural programming. All projects were created using Visual Studio Code on Windows as part of a learning process to practice core Java concepts.
@@ -72,3 +73,6 @@ My aim is to become confident in building scalable and maintainable Java applica
 
 Feel free to explore, fork, or contribute if you find the content helpful.
 >>>>>>> Java-OOP/main
+=======
+# ExtraPracticeOOP
+>>>>>>> ExtraPracticeOOP/main
